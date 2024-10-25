@@ -1,0 +1,21 @@
+body {
+    padding-top: 70px; /* Ajuste para la barra de navegación fija */
+}
+
+.banner {
+    background-color: #007bff;
+    padding: 60px;
+}
+
+.banner h1, .banner p {
+    margin: 0;
+}
+
+.card-deck .card {
+    min-width: 200px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #f8f9fa;
+}

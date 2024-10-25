@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Store</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Open Iconic Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Barra de Navegación Fija -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">My Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <header class="banner text-center text-white">
+        <h1>Welcome to My Store!</h1>
+        <p>Find the best products at amazing prices</p>
+    </header>
+
+    <!-- Breadcrumbs -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Products</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Overview</li>
+        </ol>
+    </nav>
+
+    <!-- Listado de Productos -->
+    <section class="container my-4">
+        <h2 class="text-center mb-4">Our Products</h2>
+        <div class="card-deck">
+            <div class="card">
+                <img src="https://dripchileno.cl/wp-content/uploads/2024/05/WFWFW.jpg" class="card-img-top" alt="Product 1">
+                <div class="card-body">
+                    <h5 class="card-title">Jordan Retro 4</h5>
+                    <p class="card-text">The Air Jordan 4 "Military Blue" stands out for its vibrant bluish color with white and gray details. Made with high-quality leather and mesh, these sneakers combine durability and breathability</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Price: $139</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://ae-pic-a1.aliexpress-media.com/kf/S7a2e9edb87334ca4a6320efbfdc878e92.png_640x640.png_.webp" class="card-img-top" alt="Product 2">
+                <div class="card-body">
+                    <h5 class="card-title">THUNDEROBOT-Gamepad inalámbrico G50S</h5>
+                    <p class="card-text">This control combines revolutionary functions, preserving precision, comfort and precision in every movement. Thanks to its ergonomics specially designed for the position of your hands</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Price: $59</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://whotao.com/cdn/shop/files/hu-tao-Fragrance-Thaw-figure-official-merchandise-genshin_d67e37df-44f6-41e7-a4f9-f22eecfe05ed.webp?v=1719994678" class="card-img-top" alt="Product 3">
+                <div class="card-body">
+                    <h5 class="card-title">Genshin Impact Hu Tao: Fragrance in Thaw Ver. 1/7 Scale Figure (July 2025)</h5>
+                    <p class="card-text">©miHoYo – All official product media files and information are properties of the company. WHOTAO translated the official materials into English at best effort but cannot guarantee 100% accuracy in terms of wording and information. (This is fake of of course, pls Hoyoverse dont arrest me)</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Price: $289.99</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tabla con Scroll -->
+    <section class="container my-4">
+        <h3>Product Table</h3>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Product</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Iphone Pro 15</td>
+                        <td>Electronics</td>
+                        <td>$999</td>
+                        <td><span class="oi oi-cart"></span> Add to Cart</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bauker Drill 800W</td>
+                        <td>Tools</td>
+                        <td>$99</td>
+                        <td><span class="oi oi-cart"></span> Add to Cart</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Diswasher</td>
+                        <td>Electronics</td>
+                        <td>$229</td>
+                        <td><span class="oi oi-cart"></span> Add to Cart</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>RTX Nvidia 4070 Super</td>
+                        <td>Gaming</td>
+                        <td>$699</td>
+                        <td><span class="oi oi-cart"></span> Add to Cart</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Playstation 5 Pro</td>
+                        <td>Gaming</td>
+                        <td>$799</td>
+                        <td><span class="oi oi-cart"></span> Add to Cart</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Air Force 1</td>
+                        <td>Sports</td>
+                        <td>$149</td>
+                        <td><span class="oi oi-cart"></span> Add to Cart</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Novice Camping Kit</td>
+                        <td>Camping</td>
+                        <td>$99</td>
+                        <td><span class="oi oi-cart"></span> Add to Cart</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>One Piece Manga Volume 106</td>
+                        <td>Anime</td>
+                        <td>$9.99</td>
+                        <td><span class="oi oi-cart"></span> Add to Cart</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section class="container my-4">
+        <h3>Contact Us</h3>
+        <form>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="service">Service</label>
+                <select class="form-control" id="service">
+                    <option>Support</option>
+                    <option>Sales</option>
+                    <option>General Inquiry</option>
+                </select>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="subscribe">
+                <label class="form-check-label" for="subscribe">Subscribe to newsletter</label>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+        <p>&copy; 2024 My Store - All Rights Reserved</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
